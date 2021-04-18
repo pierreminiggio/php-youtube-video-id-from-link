@@ -1,0 +1,30 @@
+{
+    "name": "pierreminiggio/youtube-video-id-from-link",
+    "description": "",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Pierre MINIGGIO",
+            "email": "pierre@miniggiodev.fr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PierreMiniggio\\YoutubeVideoIdFromLink\\": "src/",
+            "PierreMiniggio\\YoutubeVideoIdFromLinkTest\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "10.0.x-dev"
+    },
+    "scripts": {
+        "test": "bash vendor/bin/phpunit tests/"
+    },
+    "scripts-descriptions": {
+        "test": "Run all tests!"
+    }
+}
